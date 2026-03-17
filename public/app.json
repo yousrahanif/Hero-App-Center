@@ -1,0 +1,542 @@
+[
+  {
+    "image":"https://picsum.photos/200/200?random=1",
+    "title":"TaskFlow",
+    "companyName":"Productive Labs",
+    "id":1,
+    "description":"A simple productivity and task management app.",
+     "size":"45M",
+    "reviews":1200,
+    "ratingAvg":4.5,
+    "downloads":50000,
+    "ratings":[
+      {"name":"1 star","count":20},
+      {"name":"2 star","count":40},
+      {"name":"3 star","count":120},
+      {"name":"4 star","count":400},
+      {"name":"5 star","count":620}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=2",
+    "title":"PhotoMaster",
+    "companyName":"Creative Apps",
+    "id":2,
+    "description":"Advanced photo editing tools for everyone.",
+    "size":"78M",
+    "reviews":900,
+    "ratingAvg":4.3,
+    "downloads":72000,
+    "ratings":[
+      {"name":"1 star","count":30},
+      {"name":"2 star","count":60},
+      {"name":"3 star","count":150},
+      {"name":"4 star","count":300},
+      {"name":"5 star","count":360}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=3",
+    "title":"FitTrack",
+    "companyName":"HealthTech",
+    "id":3,
+    "description":"Track workouts and health progress easily.",
+   "size":"52M",
+    "reviews":1500,
+    "ratingAvg":4.6,
+    "downloads":85000,
+    "ratings":[
+      {"name":"1 star","count":25},
+      {"name":"2 star","count":35},
+      {"name":"3 star","count":140},
+      {"name":"4 star","count":500},
+      {"name":"5 star","count":800}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=4",
+    "title":"NoteSwift",
+    "companyName":"WriteSoft",
+    "id":4,
+    "description":"Fast note-taking app with cloud sync.",
+   "size":"30M",
+    "reviews":640,
+    "ratingAvg":4.1,
+    "downloads":43000,
+    "ratings":[
+      {"name":"1 star","count":40},
+      {"name":"2 star","count":70},
+      {"name":"3 star","count":150},
+      {"name":"4 star","count":210},
+      {"name":"5 star","count":170}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=5",
+    "title":"WeatherNow",
+    "companyName":"Sky Labs",
+    "id":5,
+    "description":"Real-time weather forecasts worldwide.",
+    "size":"25M",
+    "reviews":2000,
+    "ratingAvg":4.4,
+    "downloads":120000,
+    "ratings":[
+      {"name":"1 star","count":50},
+      {"name":"2 star","count":80},
+      {"name":"3 star","count":250},
+      {"name":"4 star","count":700},
+      {"name":"5 star","count":920}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=6",
+    "title":"BudgetBuddy",
+    "companyName":"FinanceHub",
+    "id":6,
+    "description":"Manage personal finances and track expenses.",
+    "size":"38M",
+    "reviews":780,
+    "ratingAvg":4.2,
+    "downloads":54000,
+    "ratings":[
+      {"name":"1 star","count":35},
+      {"name":"2 star","count":55},
+      {"name":"3 star","count":140},
+      {"name":"4 star","count":260},
+      {"name":"5 star","count":290}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=7",
+    "title":"LanguageLeap",
+    "companyName":"EduTech",
+    "id":7,
+    "description":"Learn new languages with daily lessons.",
+    "size":"65M",
+    "reviews":1600,
+    "ratingAvg":4.7,
+    "downloads":98000,
+    "ratings":[
+      {"name":"1 star","count":20},
+      {"name":"2 star","count":40},
+      {"name":"3 star","count":150},
+      {"name":"4 star","count":520},
+      {"name":"5 star","count":870}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=8",
+    "title":"TravelMate",
+    "companyName":"ExploreTech",
+    "id":8,
+    "description":"Plan trips and discover destinations.",
+    "size":"58M",
+    "reviews":870,
+    "ratingAvg":4.3,
+    "downloads":61000,
+    "ratings":[
+      {"name":"1 star","count":30},
+      {"name":"2 star","count":60},
+      {"name":"3 star","count":170},
+      {"name":"4 star","count":310},
+      {"name":"5 star","count":300}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=9",
+    "title":"MusicWave",
+    "companyName":"Sound Labs",
+    "id":9,
+    "description":"Stream music and create playlists.",
+    "size":"90M",
+    "reviews":3200,
+    "ratingAvg":4.6,
+    "downloads":200000,
+    "ratings":[
+      {"name":"1 star","count":60},
+      {"name":"2 star","count":90},
+      {"name":"3 star","count":420},
+      {"name":"4 star","count":1100},
+      {"name":"5 star","count":1530}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=10",
+    "title":"FocusTimer",
+    "companyName":"Productive Labs",
+    "id":10,
+    "description":"Pomodoro timer to boost productivity.",
+   "size":"18M",
+    "reviews":540,
+    "ratingAvg":4.0,
+    "downloads":36000,
+    "ratings":[
+      {"name":"1 star","count":40},
+      {"name":"2 star","count":70},
+      {"name":"3 star","count":120},
+      {"name":"4 star","count":180},
+      {"name":"5 star","count":130}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=11",
+    "title":"RecipeBook",
+    "companyName":"KitchenTech",
+    "id":11,
+    "description":"Discover and save cooking recipes.",
+   "size":"40M",
+    "reviews":980,
+    "ratingAvg":4.4,
+    "downloads":65000,
+    "ratings":[
+      {"name":"1 star","count":25},
+      {"name":"2 star","count":45},
+      {"name":"3 star","count":160},
+      {"name":"4 star","count":350},
+      {"name":"5 star","count":400}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=12",
+    "title":"StudySmart",
+    "companyName":"EduTech",
+    "id":12,
+    "description":"Flashcards and study planner.",
+  "size":"32M",
+    "reviews":760,
+    "ratingAvg":4.3,
+    "downloads":47000,
+    "ratings":[
+      {"name":"1 star","count":30},
+      {"name":"2 star","count":60},
+      {"name":"3 star","count":150},
+      {"name":"4 star","count":260},
+      {"name":"5 star","count":260}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=13",
+    "title":"DailyNews",
+    "companyName":"MediaHub",
+    "id":13,
+    "description":"Latest global news updates.",
+ "size":"27M",
+    "reviews":1400,
+    "ratingAvg":4.2,
+    "downloads":80000,
+    "ratings":[
+      {"name":"1 star","count":70},
+      {"name":"2 star","count":110},
+      {"name":"3 star","count":260},
+      {"name":"4 star","count":450},
+      {"name":"5 star","count":510}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=14",
+    "title":"SecureVault",
+    "companyName":"CyberSafe",
+    "id":14,
+    "description":"Password manager with encryption.",
+    "size":"20M",
+    "reviews":610,
+    "ratingAvg":4.5,
+    "downloads":42000,
+    "ratings":[
+      {"name":"1 star","count":10},
+      {"name":"2 star","count":20},
+      {"name":"3 star","count":80},
+      {"name":"4 star","count":200},
+      {"name":"5 star","count":300}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=15",
+    "title":"MindCalm",
+    "companyName":"WellnessTech",
+    "id":15,
+    "description":"Meditation and relaxation sessions.",
+     "size":"50M",
+    "reviews":1200,
+    "ratingAvg":4.6,
+    "downloads":90000,
+    "ratings":[
+      {"name":"1 star","count":20},
+      {"name":"2 star","count":40},
+      {"name":"3 star","count":160},
+      {"name":"4 star","count":420},
+      {"name":"5 star","count":560}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=16",
+    "title":"RideEasy",
+    "companyName":"TransportHub",
+    "id":16,
+    "description":"Book rides and track drivers easily.",
+   "size":"70M",
+    "reviews":2500,
+    "ratingAvg":4.4,
+    "downloads":150000,
+    "ratings":[
+      {"name":"1 star","count":60},
+      {"name":"2 star","count":90},
+      {"name":"3 star","count":350},
+      {"name":"4 star","count":900},
+      {"name":"5 star","count":1100}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=17",
+    "title":"ShopSmart",
+    "companyName":"MarketTech",
+    "id":17,
+    "description":"Online shopping deals and coupons.",
+   "size":"48M",
+    "reviews":1800,
+    "ratingAvg":4.3,
+    "downloads":130000,
+    "ratings":[
+      {"name":"1 star","count":80},
+      {"name":"2 star","count":100},
+      {"name":"3 star","count":310},
+      {"name":"4 star","count":620},
+      {"name":"5 star","count":690}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=18",
+    "title":"GameArena",
+    "companyName":"FunSoft",
+    "id":18,
+    "description":"Arcade and casual games in one app.",
+     "size":"120M",
+    "reviews":4200,
+    "ratingAvg":4.5,
+    "downloads":250000,
+    "ratings":[
+      {"name":"1 star","count":90},
+      {"name":"2 star","count":130},
+      {"name":"3 star","count":520},
+      {"name":"4 star","count":1500},
+      {"name":"5 star","count":1960}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=19",
+    "title":"BookVerse",
+    "companyName":"ReadTech",
+    "id":19,
+    "description":"Read ebooks and audiobooks.",
+    "size":"60M",
+    "reviews":980,
+    "ratingAvg":4.4,
+    "downloads":74000,
+    "ratings":[
+      {"name":"1 star","count":40},
+      {"name":"2 star","count":60},
+      {"name":"3 star","count":170},
+      {"name":"4 star","count":350},
+      {"name":"5 star","count":360}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=20",
+    "title":"QuickScan",
+    "companyName":"OfficeTools",
+    "id":20,
+    "description":"Scan documents using your phone.",
+     "size":"22M",
+    "reviews":720,
+    "ratingAvg":4.3,
+    "downloads":52000,
+    "ratings":[
+      {"name":"1 star","count":25},
+      {"name":"2 star","count":50},
+      {"name":"3 star","count":130},
+      {"name":"4 star","count":260},
+      {"name":"5 star","count":255}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=21",
+    "title":"EventPlanner",
+    "companyName":"PlanTech",
+    "id":21,
+    "description":"Organize and manage events.",
+    "size":"44M",
+    "reviews":530,
+    "ratingAvg":4.1,
+    "downloads":34000,
+    "ratings":[
+      {"name":"1 star","count":35},
+      {"name":"2 star","count":60},
+      {"name":"3 star","count":110},
+      {"name":"4 star","count":180},
+      {"name":"5 star","count":145}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=22",
+    "title":"PetCare",
+    "companyName":"AnimalTech",
+    "id":22,
+    "description":"Track pet health and appointments.",
+    "size":"36M",
+    "reviews":480,
+    "ratingAvg":4.2,
+    "downloads":29000,
+    "ratings":[
+      {"name":"1 star","count":20},
+      {"name":"2 star","count":40},
+      {"name":"3 star","count":90},
+      {"name":"4 star","count":160},
+      {"name":"5 star","count":170}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=23",
+    "title":"ArtStudio",
+    "companyName":"Creative Apps",
+    "id":23,
+    "description":"Digital drawing and painting tools.",
+    "size":"95M",
+    "reviews":2100,
+    "ratingAvg":4.6,
+    "downloads":140000,
+    "ratings":[
+      {"name":"1 star","count":50},
+      {"name":"2 star","count":70},
+      {"name":"3 star","count":300},
+      {"name":"4 star","count":750},
+      {"name":"5 star","count":930}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=24",
+    "title":"CryptoWatch",
+    "companyName":"FinTech Labs",
+    "id":24,
+    "description":"Track cryptocurrency prices.",
+    "size":"33M",
+    "reviews":1200,
+    "ratingAvg":4.3,
+    "downloads":87000,
+    "ratings":[
+      {"name":"1 star","count":60},
+      {"name":"2 star","count":90},
+      {"name":"3 star","count":220},
+      {"name":"4 star","count":430},
+      {"name":"5 star","count":400}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=25",
+    "title":"SleepWell",
+    "companyName":"WellnessTech",
+    "id":25,
+    "description":"Improve sleep with smart tracking.",
+    "size":"41M",
+    "reviews":840,
+    "ratingAvg":4.4,
+    "downloads":61000,
+    "ratings":[
+      {"name":"1 star","count":25},
+      {"name":"2 star","count":45},
+      {"name":"3 star","count":150},
+      {"name":"4 star","count":300},
+      {"name":"5 star","count":320}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=26",
+    "title":"GardenGuide",
+    "companyName":"NatureTech",
+    "id":26,
+    "description":"Plant care tips and reminders.",
+   "size":"28M",
+    "reviews":430,
+    "ratingAvg":4.1,
+    "downloads":25000,
+    "ratings":[
+      {"name":"1 star","count":25},
+      {"name":"2 star","count":40},
+      {"name":"3 star","count":80},
+      {"name":"4 star","count":150},
+      {"name":"5 star","count":135}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=27",
+    "title":"KidsLearn",
+    "companyName":"EduKids",
+    "id":27,
+    "description":"Educational games for children.",
+     "size":"85M",
+    "reviews":1900,
+    "ratingAvg":4.6,
+    "downloads":160000,
+    "ratings":[
+      {"name":"1 star","count":40},
+      {"name":"2 star","count":70},
+      {"name":"3 star","count":300},
+      {"name":"4 star","count":700},
+      {"name":"5 star","count":790}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=28",
+    "title":"CodePractice",
+    "companyName":"DevHub",
+    "id":28,
+    "description":"Coding challenges and tutorials.",
+   "size":"55M",
+    "reviews":1100,
+    "ratingAvg":4.5,
+    "downloads":82000,
+    "ratings":[
+      {"name":"1 star","count":30},
+      {"name":"2 star","count":50},
+      {"name":"3 star","count":180},
+      {"name":"4 star","count":360},
+      {"name":"5 star","count":480}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=29",
+    "title":"MovieHub",
+    "companyName":"StreamTech",
+    "id":29,
+    "description":"Discover and track movies and shows.",
+     "size":"60M",
+    "reviews":1450,
+    "ratingAvg":4.3,
+    "downloads":97000,
+    "ratings":[
+      {"name":"1 star","count":50},
+      {"name":"2 star","count":90},
+      {"name":"3 star","count":300},
+      {"name":"4 star","count":450},
+      {"name":"5 star","count":560}
+    ]
+  },
+  {
+    "image":"https://picsum.photos/200/200?random=30",
+    "title":"MapExplorer",
+    "companyName":"GeoTech",
+    "id":30,
+    "description":"Navigation and offline maps.",
+    "size":"75M",
+    "reviews":2100,
+    "ratingAvg":4.5,
+    "downloads":180000,
+    "ratings":[
+      {"name":"1 star","count":40},
+      {"name":"2 star","count":90},
+      {"name":"3 star","count":400},
+      {"name":"4 star","count":700},
+      {"name":"5 star","count":870}
+    ]
+  }
+]
