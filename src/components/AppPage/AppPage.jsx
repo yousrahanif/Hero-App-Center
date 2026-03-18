@@ -1,9 +1,15 @@
-import React from 'react';
-import { useLoaderData } from 'react-router';
+import React, { useState } from 'react';
+import { useLoaderData, useNavigate } from 'react-router';
 import CardDesign from '../CardDesign/CardDesign';
 
 const AppPage = () => {
      const data=useLoaderData()
+     const navigate=useNavigate()
+     const [search, setSearch]=useState("")
+     const matching = data.filter((item)=>item.title.toLowerCase().includes(search.toLowerCase()))
+     if(search && matching.length===0){
+      navigate("/appError")
+     }
     return (
          <section className='pt-8 bg-[#D9D9D9] mb-8'>
             <div className='mx-auto w-10/12 text-center '>
@@ -12,7 +18,7 @@ const AppPage = () => {
           
           <div className='flex justify-between py-4'>
             <div>
-                <h1 className='text-lg font-semibold'>({data.length}) Apps Found</h1>
+                <h1 className='text-lg font-semibold'>({matching.length}) Apps Found</h1>
             </div>
             <div>
 <label className="input">
@@ -28,7 +34,7 @@ const AppPage = () => {
       <path d="m21 21-4.3-4.3"></path>
     </g>
   </svg>
-  <input type="search" required placeholder="Search" />
+  <input value={search} onChange={(e)=>setSearch(e.target.value)}  type="search" required placeholder="Search" />
 </label>
             </div>
 
@@ -36,7 +42,7 @@ const AppPage = () => {
           
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
             {
-            data.map(card=><CardDesign key={card.id} card={card}></CardDesign>)
+            matching.map(card=><CardDesign   key={card.id} card={card}></CardDesign>)
 
             }
 

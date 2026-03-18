@@ -11,11 +11,11 @@ const HomePage = () => {
     return (
         <div className='' >
             {/* First section */}
-          <section className='text-center '>
+          <section className='text-center  mt-8'>
             <h1 className='text-4xl font-semibold p-2'>We Build</h1>
          
             <h1 className='text-4xl font-semibold'><span className="text-purple-600">Productive</span> Apps</h1>
-<p className='p-2'>
+<p className='p-2 text-lg text-[#627382]'>
     At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
     <br />
     Our goal is to turn your ideas into digital experiences that truly make an impact.

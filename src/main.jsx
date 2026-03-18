@@ -7,6 +7,9 @@ import MainPage from './components/MainPage/MainPage';
 import HomePage from './components/HomePage/HomePage';
 import AppPage from './components/AppPage/AppPage';
 import InstallationPage from './components/InstallationPage/InstallationPage';
+import CardDescription from './components/CardDescription/CardDescription';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import AppError from './components/AppError/AppError';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +27,23 @@ const router = createBrowserRouter([
       },
       {
         element: <InstallationPage></InstallationPage>,
-        path: "/installation"
+        path: "/installation",
+                loader: ()=>fetch("/app.json").then(res=>res.json())
+
+      },
+       {
+        element: <CardDescription></CardDescription>,
+          loader: ({params})=>fetch("/app.json").then(res=>res.json()),
+        path: "/cards/:id"
+      },
+      {
+          element: <AppError></AppError>,
+        path: "/appError" ,
+      },
+       
+      {
+        element: <ErrorPage></ErrorPage>,
+        path: "*"
       }
     ]
   }
