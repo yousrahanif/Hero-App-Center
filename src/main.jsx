@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
        {
         element: <CardDescription></CardDescription>,
-          loader: ({params})=>fetch("/app.json").then(res=>res.json()),
+          loader: ()=>fetch("/app.json").then(res=>res.json()),
         path: "/cards/:id"
       },
     
