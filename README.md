@@ -1,4 +1,5 @@
 # Hero App Center
+
 ## Description
 **Hero App Center** is a web application where users can explore apps in one place. Users can:
 
@@ -13,3 +14,28 @@
 The app provides a clean and interactive interface for discovering and managing apps.
 
 ---
+
+## Features
+- **Search Functionality:** Search apps by title or subtitle with live filtering.
+- **App Details:** View detailed app information including downloads, ratings, and reviews.
+- **Charts:** Visualize app ratings using interactive charts.
+- **Install Apps:** Click to install apps and track installed apps.
+- **Navigation:** Easy navigation between Home, App, and Install pages.
+- **External Links:** Access developer GitHub profile and external app store pages.
+
+---
+
+## Technologies Used
+- **JavaScript (JS)**  
+- **React** – Frontend library for building UI  
+- **DaisyUI & Tailwind CSS** – Styling and responsive design  
+- **Lucide Icons** – Icons for UI elements  
+- **Recharts** – Charts for displaying ratings and statistics  
+
+---
+
+## Usage
+1. Clone the repository: https://github.com/yousrahanif/Hero-App-Center.git
+2. Install dependencies: 
+   ```bash
+   npm install
