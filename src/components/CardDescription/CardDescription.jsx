@@ -48,7 +48,7 @@ const CardDescription = () => {
   </figure>
         </div>
          <div className='md:my-2 md:mx-8  '>
-            <h2 className="card-title  py-2">{card.title}</h2>
+            <h2 className="card-title  py-2">{card.title}: {card.subtitle}</h2>
   <p className='font-light'>Developed by <span className='text-purple-600'>{card.companyName}</span></p>
 
 <hr className="mt-4 w-full  bg-mist-50 text-white " /> 

@@ -6,7 +6,8 @@ import AppError from '../AppError/AppError';
 const AppPage = () => {
      const data=useLoaderData()
      const [search, setSearch]=useState("")
-     const matching = data.filter((item)=>item.title.toLowerCase().includes(search.toLowerCase()))
+     const matching = data.filter((item)=>item.title.toLowerCase().includes(search.toLowerCase())||
+    item.subtitle.toLowerCase().includes(search.toLowerCase()))
     //  if(search && matching.length===0){
     //   navigate("/appError")
     //  }
