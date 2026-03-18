@@ -34,7 +34,7 @@ const CardDescription = () => {
             const isInstalled=install.find(app=>app.id===card.id)? true: false
 
     return (
-        <div>
+        <div className=' flex flex-col justify-center'>
             {/* Card */}
           
 

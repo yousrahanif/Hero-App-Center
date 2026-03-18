@@ -1,5 +1,4 @@
 import React from 'react';
-import AppError from '../AppError/AppError';
 
 import { Download, Star, ThumbsUp } from 'lucide-react';
 import { NavLink } from 'react-router';
@@ -7,7 +6,7 @@ import { NavLink } from 'react-router';
 
 const InstallCardDesign = ({card}) => {
     return (
-        <div className='card '  >
+        <div className=' '  >
             <div className='flex  justify-center mx-auto w-full  my-4'>
                  <div className='mr-4 '>
                 <img src={card.image}  className="w-20 h-20" alt="" />
@@ -17,9 +16,15 @@ const InstallCardDesign = ({card}) => {
       <div className=''>
                 
                 
-<div className='flex justify-between'>
-                             <h1 className='text-lg font-semibold'> {card.title}</h1>
-<NavLink  className='btn bg-green-500 text-white mx-4' >Uninstall Now</NavLink>
+<div className='flex h-20 w-96 justify-between'>
+    <div>
+                                     <h1 className='text-lg font-semibold'> {card.title}</h1>
+
+    </div>
+                             <div>
+                                <NavLink  className='btn  bg-green-500 text-white text-sm mx-4' >Uninstall</NavLink>
+
+                             </div>
 </div>
 <div className='flex '>
                        <h1 className='flex text-lg font-extralight mr-4'> <Download className='text-green-600' />{card.downloads}</h1>

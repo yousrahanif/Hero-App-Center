@@ -26,7 +26,8 @@ const Navbar = () => {
       </ul>
     </div>
     <div className="flex items-center">
-        <img src={logo} className="w-10 h-10" alt="" />
+      <NavLink to="/">        <img src={logo}  className="w-10 h-10" alt="" />
+</NavLink>
             <NavLink to="/" className={`text-[#632EE3]`}>HERO.IO</NavLink>
 
     </div>
@@ -44,7 +45,7 @@ const Navbar = () => {
   </div>
   <div className="flex navbar-end ">
    
-    <a className="text-white btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"> <Github /> Contribute</a>
+    <a href="https://github.com/yousrahanif" className="text-white btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"> <Github /> Contribute</a>
   </div>
 </div>
       

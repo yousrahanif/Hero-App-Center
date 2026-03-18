@@ -36,10 +36,7 @@ const router = createBrowserRouter([
           loader: ({params})=>fetch("/app.json").then(res=>res.json()),
         path: "/cards/:id"
       },
-      {
-          element: <AppError></AppError>,
-        path: "/appError" ,
-      },
+    
        
       {
         element: <ErrorPage></ErrorPage>,

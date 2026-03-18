@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { useLoaderData, useNavigate } from 'react-router';
+import { useLoaderData } from 'react-router';
 import CardDesign from '../CardDesign/CardDesign';
+import AppError from '../AppError/AppError';
 
 const AppPage = () => {
      const data=useLoaderData()
-     const navigate=useNavigate()
      const [search, setSearch]=useState("")
      const matching = data.filter((item)=>item.title.toLowerCase().includes(search.toLowerCase()))
-     if(search && matching.length===0){
-      navigate("/appError")
-     }
+    //  if(search && matching.length===0){
+    //   navigate("/appError")
+    //  }
     return (
          <section className='pt-8 bg-[#D9D9D9] mb-8'>
             <div className='mx-auto w-10/12 text-center '>
@@ -42,8 +42,10 @@ const AppPage = () => {
           
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
             {
-            matching.map(card=><CardDesign   key={card.id} card={card}></CardDesign>)
+matching.length>0 ? (
+              matching.map(card=><CardDesign   key={card.id} card={card}></CardDesign>)
 
+): <div> <AppError></AppError> </div>
             }
 
 

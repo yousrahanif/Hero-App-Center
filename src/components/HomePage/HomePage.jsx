@@ -1,4 +1,3 @@
-import React from 'react';
 import appleStore from "../../assets/appleStore.jpg"
 import googleStore from "../../assets/googlePlay.jpg"
 import heroPng from "../../assets/hero.png"
@@ -21,12 +20,12 @@ const HomePage = () => {
     Our goal is to turn your ideas into digital experiences that truly make an impact.
 </p>
 <div className='flex justify-center p-2'>
-    <button className='btn bg-white  mx-4'>
+    <a href='https://play.google.com/store/games?hl=en_US' className='btn bg-white  mx-4'>
         <img src={googleStore} alt="" className='w-5 ' />
-        Google Play</button>
-    <button className='btn mx-4 bg-white'>
+        Google Play</a>
+    <a href='https://www.apple.com/app-store/' className='btn mx-4 bg-white'>
                 <img src={appleStore} alt="" className='w-7' />
-App Store</button>
+App Store</a>
 
 </div>
 <div className='flex justify-center items-center'>
