@@ -5,7 +5,7 @@
 
 - Browse apps and view detailed descriptions.
 - See charts about app ratings.
-- Click to install apps directly.
+- Click to install apps directly and uninstall if wants to.
 - Search apps by **title** or **subtitle**.
 - Navigate to **Home**, **App**, and **Install** pages.
 - Visit the developer's **GitHub profile**.
