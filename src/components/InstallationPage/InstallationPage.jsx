@@ -28,7 +28,7 @@ const InstallationPage = () => {
             </div>
             <div>
 <div className="dropdown dropdown-bottom">
-  <div tabIndex={0} role="button" className="btn m-1">Sort By Size     <ChevronDown /></div>
+  <div tabIndex={0} role="button" className="btn m-1">Sort By Downloads     <ChevronDown /></div>
   <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><a onClick={assendening} >Ascending</a></li>
     <li><a onClick={dessendening}>Descending</a></li>
