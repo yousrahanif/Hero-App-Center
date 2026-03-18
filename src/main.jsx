@@ -9,7 +9,6 @@ import AppPage from './components/AppPage/AppPage';
 import InstallationPage from './components/InstallationPage/InstallationPage';
 import CardDescription from './components/CardDescription/CardDescription';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import AppError from './components/AppError/AppError';
 const router = createBrowserRouter([
   {
     path: "/",
