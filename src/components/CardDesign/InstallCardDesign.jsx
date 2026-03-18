@@ -9,7 +9,7 @@ const InstallCardDesign = ({card}) => {
         <div className=' '  >
             <div className='flex  justify-center mx-auto w-full  my-4'>
                  <div className='mr-4 '>
-                <img src={card.image}  className="w-20 h-20" alt="" />
+                <img src={card.image}  className="w-48 h-48" alt="" />
              
             </div>
             <div className='border-2 border-mist-300 p-2'>

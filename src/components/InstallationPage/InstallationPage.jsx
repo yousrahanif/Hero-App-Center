@@ -2,12 +2,19 @@ import { ChevronDown } from 'lucide-react';
 import { useOutletContext } from 'react-router';
 import AppError from '../AppError/AppError';
 import InstallCardDesign from '../CardDesign/InstallCardDesign';
+import { useState } from 'react';
 
 const InstallationPage = () => {
     const {install}=useOutletContext()
+    const [sortedList, setSortedList]=useState(install)
     
+   const assendening=()=>{
+    setSortedList( [...install].sort((a,b)=>parseFloat(a.downloads)-parseFloat(b.downloads)))
+   }
    
-   
+   const dessendening=()=>{
+    setSortedList(  [...install].sort((a,b)=>parseFloat(b.downloads)-parseFloat(a.downloads)))
+   }
   
     return (
          <section className='pt-8 bg-[#D9D9D9] mb-8'>
@@ -23,8 +30,8 @@ const InstallationPage = () => {
 <div className="dropdown dropdown-bottom">
   <div tabIndex={0} role="button" className="btn m-1">Sort By Size     <ChevronDown /></div>
   <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-    <li><a>Ascending</a></li>
-    <li><a>Descending</a></li>
+    <li><a onClick={assendening} >Ascending</a></li>
+    <li><a onClick={dessendening}>Descending</a></li>
   </ul>
 </div>
             </div>
@@ -35,7 +42,7 @@ const InstallationPage = () => {
             </div>
             <div>
                 {
-                    install.map(app=>  <InstallCardDesign key={app.id} card={app}></InstallCardDesign>)
+                    sortedList.map(app=>  <InstallCardDesign key={app.id} card={app}></InstallCardDesign>)
                 }
             </div>
 
