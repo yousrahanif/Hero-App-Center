@@ -11,7 +11,7 @@
 - Visit the developer's **GitHub profile**.
 - Go to the app's page on **App Store** or **Play Store**.
 
-The app provides a clean and interactive interface for discovering and managing apps.
+
 
 ---
 
