@@ -1,10 +1,15 @@
 import React from 'react';
 
 import { Download, Star, ThumbsUp } from 'lucide-react';
-import { NavLink } from 'react-router';
+import { NavLink, useOutletContext } from 'react-router';
 
 
 const InstallCardDesign = ({card}) => {
+     const {install,setInstall}=useOutletContext()
+      const handleUninstall=(data)=>{
+     setInstall( install.filter(item=>item.id!==data.id))
+
+    }
     return (
         <div className=' '  >
             <div className='flex  justify-center mx-auto w-full  my-4'>
@@ -22,7 +27,7 @@ const InstallCardDesign = ({card}) => {
 
     </div>
                              <div>
-                                <NavLink  className='btn  bg-green-500 text-white text-sm mx-4' >Uninstall</NavLink>
+                                <NavLink onClick={()=>handleUninstall(card)}  className='btn  bg-green-500 text-white text-sm mx-4' >Uninstall</NavLink>
 
                              </div>
 </div>

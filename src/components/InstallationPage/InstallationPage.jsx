@@ -2,12 +2,15 @@ import { ChevronDown } from 'lucide-react';
 import { useOutletContext } from 'react-router';
 import AppError from '../AppError/AppError';
 import InstallCardDesign from '../CardDesign/InstallCardDesign';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const InstallationPage = () => {
     const {install}=useOutletContext()
     const [sortedList, setSortedList]=useState(install)
-    
+  
+    useEffect(() => {
+  setSortedList(install)
+}, [install])
    const assendening=()=>{
     setSortedList( [...install].sort((a,b)=>parseFloat(a.downloads)-parseFloat(b.downloads)))
    }
